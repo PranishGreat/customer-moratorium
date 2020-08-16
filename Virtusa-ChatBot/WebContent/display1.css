@@ -1,0 +1,96 @@
+.d1{
+  width: 113%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: #708090;
+}
+ .button{
+ line-height: 12px;
+     width: 150px;
+
+     font-family: tahoma;
+     margin-top: 25px;
+     margin-right: 40px;
+     position:absolute;
+     top:0;
+     right:0;
+     display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #eccc68;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px; 
+ }
+ .button:hover{
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #ff6348;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+ }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 93%;
+  table-layout:fixed;
+  
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  width:110%;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  word-wrap: break-word;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  width:100%;
+  padding:0;
+}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+  
+}
+.tab{
+	width: 100%;	
+}
+.tablink:hover {
+  background-color: #777;
+}
+
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  width: 110%;
+}
+
+#Pending {background-color: #708090;}
+#Approved {background-color: #708090;}
+#NotApproved {background-color: #708090;}
